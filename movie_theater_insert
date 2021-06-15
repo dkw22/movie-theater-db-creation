@@ -1,0 +1,45 @@
+INSERT INTO customer(
+	customer_id,
+	first_name,
+	last_name,
+	phone_number
+)VALUES(
+	1,
+	'Devon',
+	'Wehrlin',
+	'330-333-0000'
+);
+
+INSERT INTO movies(
+	movie_id,
+	movie_title,
+	theater_house,
+	rating
+)VALUES(
+	1,
+	'The Queen of the Damned',
+	1,
+	'R'
+);
+
+INSERT INTO consessions(
+	order_id,
+	customer_id,
+	phone_number
+)VALUES(
+	1,
+	1,
+	'330-333-0000'
+);
+
+INSERT INTO tickets(
+	ticket_id,
+	movie_title,
+	theater_house,
+	seat_number
+)VALUES(
+	1,
+	'The Queen of the Damned',
+	1,
+	'G34'
+);

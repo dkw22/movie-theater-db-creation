@@ -1,0 +1,9 @@
+ALTER TABLE customer
+ADD email VARCHAR(150);
+
+UPDATE customer
+SET email = 'dkwehrlin.99@yahoo.com'
+WHERE customer_id = 1;
+
+SELECT *
+FROM customer;
